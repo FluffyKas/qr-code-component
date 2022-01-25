@@ -27,6 +27,7 @@ body {
 
 main {
   background: var(--clr-white);
+  box-shadow: 0 2px 16px 0 rgba(146, 146, 146, 0.3);
   border-radius: 20px;
   max-width: 20rem;
   padding: 1rem;
