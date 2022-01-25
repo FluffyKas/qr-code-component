@@ -33,15 +33,11 @@ main {
   padding: 1rem;
 }
 
-.qr-code-holder {
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 .qr-code {
   max-width: 100%;
   height: auto;
   display: block;
+  border-radius: 10px;
 }
 
 .description {
