@@ -26,11 +26,11 @@ body {
   animation: fadeIn .5s ease-in;
 }
 
-main {
+.card {
   background: var(--clr-white);
   box-shadow: 0 2px 16px 0 rgba(146, 146, 146, 0.3);
   border-radius: 20px;
-  width: 90%;
+  margin-inline: 1rem;
   max-width: 20rem;
   padding: 1rem;
 }
