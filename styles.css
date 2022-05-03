@@ -23,12 +23,14 @@ body {
   place-items: center;
   font-family: 'Outfit', sans-serif;
   min-height: 100vh;
+  animation: fadeIn 1s ease-in;
 }
 
 main {
   background: var(--clr-white);
   box-shadow: 0 2px 16px 0 rgba(146, 146, 146, 0.3);
   border-radius: 20px;
+  width: 90%;
   max-width: 20rem;
   padding: 1rem;
 }
@@ -53,4 +55,19 @@ main {
 
 .description p {
   color: var(--clr-gray-blue-500);
+}
+
+
+/* Keyframes */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
